@@ -8,7 +8,15 @@ namespace Web.Controllers
 {
     public class BooksController : Controller
     {
-        
+        public IActionResult Books()
+        {
+            return View();
+        }
+
+        public IActionResult Bview()
+        {
+            return View();
+        }
 
     }
 }
