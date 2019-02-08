@@ -5,4 +5,4 @@
 
 Screenshot
 
-https://github.com/santoshsekhar/P2mvc/blob/master/P2app.PNG
+![Screenshot](P2MVC.png)
