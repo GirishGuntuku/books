@@ -1,8 +1,6 @@
 using System;
 using Xunit;
 
-using System;
-using Xunit;
 
 namespace UnitTests
 {
