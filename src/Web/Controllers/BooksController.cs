@@ -18,5 +18,26 @@ namespace Web.Controllers
             return View();
         }
 
+        
+
+        public IActionResult JSON()
+        {
+            return Json(new
+            {
+                apptype = ".NET Core",
+                appname = "MVC"
+            });
+        }
+
+        public IActionResult HTML()
+        {
+            return Content("<!DOCTYPE html><html><body>Hello World</body></html>", "text/html");
+        }
+
+        public IActionResult Greeting()
+        {
+            return Content("Hello!");
+        }
+
     }
 }
