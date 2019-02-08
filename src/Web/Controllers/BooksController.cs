@@ -39,5 +39,12 @@ namespace Web.Controllers
             return Content("Hello!");
         }
 
+         public IActionResult Calculate()
+        {
+            return View("Views/Books/Division.cshtml");
+        }
+
+
+
     }
 }
